@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My personal student portfolio website">
+  <title>My Portfolio | Student Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+          <h1>Hello, I'm <span>Kyle M. Bertulfo</span></h1>
+          <h2>A Student & Beginner to Web Developer</h2>
+
+          <p class="hero-description">
+            I am a student who enjoys learning new technologies,
+            designing websites, and creating useful digital projects.
+            Welcome to my personal portfolio!
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <p class="hero-note">LEARN · CREATE · IMPROVE</p>
+        </div>
+
+        <div class="hero-decoration" aria-hidden="true">
+          <div class="decor-circle"></div>
+          <div class="decor-card">
+            <span class="decor-icon">✳</span>
+            <p>Crab Mentality.</p>
+            <p>Curious learner.</p>
+            <p>Future import to saudi developer.</p>
+          </div>
+          <span class="decor-leaf">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <p class="eyebrow">01 / ABOUT</p>
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <p>A little introduction about who I am.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hi! I'm <strong>Kyle M. Bertulfo</strong>, a student interested
+              in technology, web design, and programming.
+              I enjoy exploring new ideas and turning them into
+              simple and useful projects.
+            </p>
+            <p>
+              My goal is to have money, gain money,
+              and be rich!.
+            </p>
+          </div>
+
+          <div class="info-grid">
+            <article class="info-card">
+              <span class="info-icon">⌂</span>
+              <div>
+                <h3>Student</h3>
+                <p>Currently studying</p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <span class="info-icon">⌘</span>
+              <div>
+                <h3>Interests</h3>
+                <p>Web & Food</p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <span class="info-icon">◎</span>
+              <div>
+                <h3>My Goal</h3>
+                <p>Become rich</p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <span class="info-icon">✧</span>
+              <div>
+                <h3>My Mindset</h3>
+                <p>Crab Mentality</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">02 / SKILLS</p>
+        <div class="section-heading">
+          <h2>My Skills</h2>
+          <p>Tools and technologies that i need to improve.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">H</span>
+              <span class="skill-level">01</span>
+            </div>
+            <h3>HTML</h3>
+            <p>Building the structure of web pages.</p>
+            <div class="skill-track"><span style="width: 75%"></span></div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">C</span>
+              <span class="skill-level">02</span>
+            </div>
+            <h3>CSS</h3>
+            <p>Styling layouts, colors, and typography.</p>
+            <div class="skill-track"><span style="width: 65%"></span></div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">JS</span>
+              <span class="skill-level">03</span>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Learning interactive website features.</p>
+            <div class="skill-track"><span style="width: 35%"></span></div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-top">
+              <span class="skill-symbol">✎</span>
+              <span class="skill-level">04</span>
+            </div>
+            <h3>Web Design</h3>
+            <p>Creating clean and user-friendly designs.</p>
+            <div class="skill-track"><span style="width: 60%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">03 / PROJECTS</p>
+        <div class="section-heading heading-row">
+          <div>
+            <h2>Selected Projects</h2>
+            <p>A few projects from my learning journey.</p>
+          </div>
+          <span class="project-count">MY WORK / 03</span>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one">
+              <span>01</span>
+              <div class="mini-window">
+                <div class="mini-dots">● ● ●</div>
+                <div class="mini-line long"></div>
+                <div class="mini-line medium"></div>
+                <div class="mini-pill"></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">Finals Activity 1</p>
+              <h3>First Activity</h3>
+              <p>A simple website created to practice HTML, CSS, and JavaScript.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="project-link" href="./porfolio_projects/ACT1/final1.html">CLick here to view ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-two">
+              <span>02</span>
+              <div class="mini-dashboard">
+                <div></div><div></div><div></div><div></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">Finals Activity 2</p>
+              <h3>Second Activity</h3>
+              <p>This shows my skills in creating a simple dashboard.</p>
+              <div class="tags"><span>JavaScript</span><span>CSS</span><span>HTML</span></div>
+              <a class="project-link" href="./porfolio_projects/ACT2/final2.html">CLick here to review ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-three">
+              <span>03</span>
+              <div class="mini-weather">
+                <span>☀</span>
+                <strong></strong>
+                <small>Sample concept</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">Finals Activity 3</p>
+              <h3>Third Activity</h3>
+              <p>A simple website created to practice HTML, CSS, and JavaScript.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="project-link" href="./porfolio_projects/ACT3/final3.html">CLick here to review ↗</a>
+            </div>
+          </article>
+        </div>
+
+        
+      </div>
+    </section>
+    
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="eyebrow">04 / CONTACT</p>
+        <div class="contact-box">
+          <div class="contact-copy">
+            <h2>Send Gcash</h2>
+            <p>
+              Here's my email & contact number you feel free to chat with me to chismis.
+            </p>
+            <a class="btn btn-light" href="mailto:kylebertulfo6@gmail.com">
+              Send Me an Email ↗ 
+            </a>
+          </div>
+
+          <div class="contact-details">
+            <p class="contact-label">CONTACT DETAILS</p>
+            <a href="mailto:kylebertulfo6@gmail.com">✉ kylebertulfo6@gmail.com</a>
+            <p>⌖ Philippines</p>
+            <p>Contact no.: 09857720376</p>
+            <p>◷ Open to learning and collaboration</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">My<span>Portfolio.</span></a>
+      <p>Designed and built with love like sir Ralph.</p>
+      <p>© <span id="year"></span> Kyle M. Bertulfo</p>
+      <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>

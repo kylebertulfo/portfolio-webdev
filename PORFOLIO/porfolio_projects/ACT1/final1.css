@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile{
+    padding: 25px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.btn1{
+    height:30px; ;
+    width:70px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+
+}
+
+.btn2{
+    height:30px ;
+    width:70px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    
+
+}
+.btn3{
+    height:30px ;
+    width:70px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    padding: 25px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    
+    /* Fixed width at min-height para hindi magbago ang laki ng card */
+    width: 320px;
+    min-height: 420px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.btn1, .btn2, .btn3 {
+    height: 32px;
+    width: 90px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#varvar3 {
+    font-size: 14px;
+    margin-top: 10px;
+}

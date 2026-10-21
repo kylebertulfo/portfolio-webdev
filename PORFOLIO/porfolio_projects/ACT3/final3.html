@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<style>
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 40px;
+    }
+    #card1{
+        background-color: rgb(248, 235, 214);
+
+        border: solid 2px black;
+        border-radius: 20px;
+        padding: 25px;
+    }
+    #card2{
+        background-color: rgb(248, 235, 215);
+
+        border: solid 2px black;
+        border-radius: 20px;
+        padding: 25px;
+        margin-top: 30px;
+    }
+    #profile{
+        border-color: antiquewhite;
+    }
+
+
+    
+    .class{
+        background-color: aliceblue;
+        margin: auto;
+        border: solid 2px bisque;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    button{
+        padding: 10px 15px;
+        background-color: burlywood;
+        color: brown;
+        border-radius: 20px;
+        border: none;
+    }
+    input{
+
+        padding: 10px 15px;
+        background-color: antiquewhite;
+        color: brown;
+        border-radius: 20px;
+        border: none;
+        border-color: brown;
+
+    }
+    table,tr,td,th{
+        color: rgb(0, 0, 0);
+       
+        border-radius: 5px;
+        border: solid 1px black;
+    
+    }
+    img{
+        width: 100px;
+
+    }
+
+        
+</style>
+<body>
+    <div id="card1" style="text-align: center;">
+        <h1 id="h1"> Hello Welcome!</h1>
+        <p id="p1">This is my Profile!</p>
+        <img src="./images.jpg" alt="" id="img1"><br>
+
+        <div id="profile">
+            
+            <h2 id="h2">My Information</h2>
+            <p>Name: Kyle M. Bertulfo</p>
+            <p id="message">Course: BSCS</p>
+            <p>Year Level: 3rd Year</p>
+
+        </div>
+    
+        <br><br>
+
+        <button id="btn1">Change</button>
+        <button id="btn2">Hide Profile</button>
+        <button id="btn3">Show Profile</button>
+        
+        <p id="mess1">Actions</p>
+
+        <br><br>
+        <div style="text-align: left;">
+
+        <h2>Choose your course:</h2>
+        <select id="course">
+            <option value="BSCS">BSCS</option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSOAD">BSOAD</option>
+            <option value="CRIMINOLOGY">CRIMINOLOGY</option>
+        </select>
+        </div>
+        <br><br>
+        <p id="mess2">Course selector is Active</p>
+
+
+        <br><br>
+        </div>
+        <div id="card2">
+
+        <table align="center" id="table">
+            <tr class="head">
+                <th>no.</th>
+                <th>Top food</th>
+                <th>Ratings</th>
+                <th>Color</th>
+                
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Steak</td>
+                <td>10/10</td>
+                <td>brown</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hotdog</td>
+                <td>9/10</td>
+                <td>red</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Banana</td>
+                <td>8.8/10</td>
+                <td>Yellow</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Orange</td>
+                <td>8.5/10</td>
+                <td>Orange</td>
+            </tr>
+        </table>
+        <br>
+        <div style="text-align: center;">
+        <button id="even">Even color</button>
+        <button id="odd">Odd color</button>
+        <button id="hide">Hide Table</button>
+        <button id="show">Show Table</button>
+
+        <p id="mess3">Actions</p>
+        </div>
+        </div>
+        
+    <script src="final3.js"></script>
+</body>
+</html>
